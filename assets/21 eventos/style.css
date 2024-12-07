@@ -1,0 +1,15 @@
+.navegacion{
+    display: inline-block;
+    font-size: 16px;
+    color: yellow;
+    
+}
+
+a{
+    text-decoration: none;
+    color:red;
+}
+
+.boton{
+    
+}

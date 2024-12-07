@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <ul class="navegacion">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Quienes Somos</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+
+    <p id="result"></p>
+    <button class="boton" onclick="calculadora.sumar(2,3)">Suma</button>
+    <button class="boton" onclick="calculadora.restar(5,2)">Restar</button>
+    <button class="boton" onclick="calculadora.multiplicar(2,3)">Multiplicar</button>
+    <button class="boton" onclick="calculadora.dividir(9,3)">Division</button>
+
+    <table>
+        <tr>
+            <td>Nombre</thead>
+            <td>Apellido</thead>
+            <td>accion</thead>
+        </tr>
+        <tr>
+            <td class="cambioNombre">vacio</td>
+            <td class="cambioApellido">vacio</td>
+            <td><button type="button" onclick="cambiarNombre.cambia()">Cambiar nombre</button></td>
+        </tr>
+    </table>
+
+    <script src="evento.js"></script>
+</body>
+</html>
