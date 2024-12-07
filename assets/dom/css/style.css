@@ -1,0 +1,18 @@
+.title{
+    color: aqua;
+    font-size: 64px;
+}
+
+.bgred{
+    background-color: red;
+}
+
+.bgblue{
+    background-color: blue;
+}
+
+.button{
+    color: blue;
+    background-color: black;
+    width: 150px;
+}
